@@ -536,4 +536,5 @@ class ChangeSummary:
             self._write_verbose_changes_to_disk(result, self._temp_dir, summary_df)
 
 if __name__ == "__main__":
+    # Test
     raise NotImplemented
