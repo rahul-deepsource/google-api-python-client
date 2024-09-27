@@ -534,3 +534,7 @@ class ChangeSummary:
             # Create verbose change information for each API which contains
             # a list of changes by key and write it to disk.
             self._write_verbose_changes_to_disk(result, self._temp_dir, summary_df)
+
+if __name__ == "__main__":
+    # Test
+    raise NotImplemented
